@@ -1,0 +1,10 @@
+node_modules/
+.env
+*.log
+.DS_Store
+db_data/
+bun.lock
+CHANGELOG.md
+NEW_FEATURES.md
+SETUP_GUIDE.md
+SUMMARY_V2.md
