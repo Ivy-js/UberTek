@@ -125,11 +125,11 @@ export async function handleTimeSelect(interaction) {
         .setDescription('Dans quelle salle souhaitez-vous être livré ?');
 
     const roomOptions = [
-        { label: 'Salle 101', value: 'Salle 101' },
-        { label: 'Salle 102', value: 'Salle 102' },
-        { label: 'Salle 201', value: 'Salle 201' },
-        { label: 'Salle 202', value: 'Salle 202' },
-        { label: 'Hall d\'entrée', value: 'Hall d\'entrée' },
+        { label: 'Salle 1-7', value: 'Salle 101' },
+        { label: 'Salle 1-8', value: 'Salle 102' },
+        { label: 'Salle 1-9', value: 'Salle 201' },
+        { label: 'Salle 1-10', value: 'Salle 202' },
+        { label: 'Hall d\'entrée (Étage 1)', value: 'Hall d\'entrée' },
         { label: 'Cafétéria', value: 'Cafétéria' }
     ];
 
