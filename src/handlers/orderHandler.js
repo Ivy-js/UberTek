@@ -94,7 +94,6 @@ export async function handleProductSelect(interaction) {
         interaction.client.userCarts.set(userId, cart);
 
         await showCartWithControls(interaction, userId);
-        await showCart(interaction, userId);
 
     } catch (error) {
         console.error('Error handling product select:', error);
