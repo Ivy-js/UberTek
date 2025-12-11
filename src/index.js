@@ -23,6 +23,7 @@ const client = new Client({
 
 client.commands = new Collection();
 client.db = new Database();
+client.userCarts = new Map();
 
 const commandsPath = join(__dirname, 'commands');
 const commandFolders = readdirSync(commandsPath);
